@@ -1,0 +1,87 @@
+
+body
+{
+    background: radial-gradient(circle, #2fa81e, #221616);
+    overflow: auto;
+  }
+.container
+{
+    max-width: 440px;
+    padding: 0 0;
+    padding-bottom: 30px;
+    margin: 170px auto;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.square
+{
+
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+}
+.title
+{
+    height: 90px;
+    color: whitesmoke;
+    background: #0e0c0c;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.row
+{
+    max-width: 440px;
+    margin: auto;
+    padding: 10px;
+
+}
+input
+{
+    font-size: 20px;
+}
+.check
+{
+    height: 45px;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.send
+{
+    height: 45px;
+    width: 100%;
+    background-color: #1fe20e;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+form .row input.send:hover
+{
+    background-color: #752626;
+
+}
+label
+{
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.affiche
+{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 45px;
+    color: #067c1a;
+}
